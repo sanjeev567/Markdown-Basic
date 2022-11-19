@@ -132,20 +132,38 @@ first is three dashes second is three underscores
 # * <ins>Github markdown</ins>
 
 ## 1. <ins>Code Blocks </ins>
+- Language specific code blocks as shown below.
+```md
+  ```bash
+      npm start
+      npm  start
+    ```
+```
 
 ```bash
     npm install
 
     npm start
 ```
-
-
-```javascript
-    function(num1, num2) {
-    return num1 + num2;
-    }
+```md
+  ```javascript
+      function(num1, num2) {
+      return num1 + num2;
+      }
+    ```
 ```
+```javascript
+      function(num1, num2) {
+      return num1 + num2;
+      }
+ ```
 
+```md
+  ```python
+      def(num1, num2):
+          return num1 + num2
+    ```
+```
 ```python
     def(num1, num2):
         return num1 + num2
